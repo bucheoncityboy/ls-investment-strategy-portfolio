@@ -956,7 +956,9 @@ a:focus-visible {
 }
 
 /* Investment strategy research edition */
-.application-label { margin: 21px 0 0; color: #53627a; font-size: 13px; font-weight: 500; line-height: 1.8; word-break: keep-all; }
+.hero { padding-top: 70px; }
+.hero-role { margin: 16px 0 0; font-size: 14px; }
+.application-label { margin: 8px 0 0; color: #53627a; font-size: 13px; font-weight: 500; line-height: 1.8; word-break: keep-all; }
 .application-label > span { margin-inline: 8px; color: #9aa5b6; }
 .hero h1 { font-size: clamp(64px, 6.8vw, 84px); }
 .hero-lede { max-width: 610px; font-size: clamp(21px, 2.1vw, 25px); line-height: 1.65; font-weight: 500; letter-spacing: -.055em; }
@@ -1048,10 +1050,12 @@ a:focus-visible {
 }
 
 @media (max-width: 720px) {
+  .hero { padding-top: 56px; }
   .header-inner { gap: 16px; }
   .primary-nav { gap: 13px; }
   .primary-nav a { font-size: 10px; white-space: nowrap; }
   .hero h1 { font-size: clamp(60px, 17vw, 76px); }
+  .hero-role { font-size: 12px; }
   .application-label { font-size: 11px; }
   .application-label > span { margin-inline: 4px; }
   .hero-lede { font-size: 21px; line-height: 1.7; }

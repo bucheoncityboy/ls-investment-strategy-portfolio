@@ -30,7 +30,7 @@ assert.match(html, /LS증권 투자전략 RA 지원 포트폴리오/);
 assert.match(html, /aria-label="주요 메뉴"/);
 assert.match(html, /class="skip-link"/);
 assert.match(html, /19회 확대되고 17회 축소/);
-assert.match(html, /다음 관측일인 D\+1/);
+assert.match(html, /다음 관측일을 D\+1, 다섯째 관측일을 D\+5/);
 assert.match(html, /학회원 피드백 기준/);
 assert.match(html, /직접 작성한 학회 브리핑과 구분/);
 assert.match(html, /href="samples\/2026-10-07\.html"/);

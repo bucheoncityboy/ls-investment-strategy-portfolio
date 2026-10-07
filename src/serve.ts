@@ -9,7 +9,7 @@ const mime: Readonly<Record<string, string>> = {
   ".css": "text/css; charset=utf-8",
   ".svg": "image/svg+xml",
 };
-const publicFiles = new Set(["index.html", "styles.css", "assets/favicon.svg"]);
+const publicFiles = new Set(["index.html", "styles.css", "assets/favicon.svg", "samples/2026-10-07.html"]);
 
 const server = createServer(async (request, response) => {
   const pathname = new URL(request.url ?? "/", `http://127.0.0.1:${port}`).pathname;

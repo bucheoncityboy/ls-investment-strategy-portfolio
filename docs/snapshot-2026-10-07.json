@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "command": "snapshot",
+  "generated_at": "2026-10-07T10:15:54Z",
+  "briefing_date": "2026-10-07",
+  "sessions": {
+    "us_overnight": "2026-10-06",
+    "korea_previous": "2026-10-06"
+  },
+  "items": [
+    {
+      "symbol": "VIX",
+      "section": "Equity, Vol",
+      "value": 15.01,
+      "unit": "pt",
+      "observed": "2026-10-06",
+      "session": "2026-10-06",
+      "basis": "close",
+      "source_name": "Cboe",
+      "source_url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX_History.csv"
+    },
+    {
+      "symbol": "KOSPI",
+      "section": "한국 증시",
+      "value": 6941.39,
+      "unit": "pt",
+      "observed": "2026-10-06",
+      "session": "2026-10-06",
+      "basis": "close",
+      "source_name": "한국은행 ECOS",
+      "source_url": "https://ecos.bok.or.kr/api/StatisticSearch/sample/json/kr/1/10/802Y001/D/20261006/20261006"
+    },
+    {
+      "symbol": "KOSDAQ",
+      "section": "한국 증시",
+      "value": 919.92,
+      "unit": "pt",
+      "observed": "2026-10-06",
+      "session": "2026-10-06",
+      "basis": "close",
+      "source_name": "한국은행 ECOS",
+      "source_url": "https://ecos.bok.or.kr/api/StatisticSearch/sample/json/kr/1/10/802Y001/D/20261006/20261006"
+    },
+    {
+      "symbol": "2Y",
+      "section": "Rates",
+      "value": 4.79,
+      "unit": "%",
+      "observed": "2026-10-06",
+      "session": "2026-10-06",
+      "basis": "close",
+      "source_name": "U.S. Treasury",
+      "source_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2026/all?type=daily_treasury_yield_curve&field_tdr_date_value=2026&page&_format=csv"
+    },
+    {
+      "symbol": "10Y",
+      "section": "Rates",
+      "value": 5.27,
+      "unit": "%",
+      "observed": "2026-10-06",
+      "session": "2026-10-06",
+      "basis": "close",
+      "source_name": "U.S. Treasury",
+      "source_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2026/all?type=daily_treasury_yield_curve&field_tdr_date_value=2026&page&_format=csv"
+    },
+    {
+      "symbol": "30Y",
+      "section": "Rates",
+      "value": 5.64,
+      "unit": "%",
+      "observed": "2026-10-06",
+      "session": "2026-10-06",
+      "basis": "close",
+      "source_name": "U.S. Treasury",
+      "source_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2026/all?type=daily_treasury_yield_curve&field_tdr_date_value=2026&page&_format=csv"
+    },
+    {
+      "symbol": "2s10s",
+      "section": "Rates",
+      "value": 48.0,
+      "unit": "bp",
+      "observed": "2026-10-06",
+      "session": "2026-10-06",
+      "basis": "close",
+      "source_name": "U.S. Treasury",
+      "source_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2026/all?type=daily_treasury_yield_curve&field_tdr_date_value=2026&page&_format=csv"
+    },
+    {
+      "symbol": "EUR/USD",
+      "section": "FX",
+      "value": 1.1269,
+      "unit": "USD/EUR",
+      "observed": "2026-10-06",
+      "session": "2026-10-06",
+      "basis": "reference-rate",
+      "source_name": "ECB",
+      "source_url": "https://data-api.ecb.europa.eu/service/data/EXR/D.USD+JPY+GBP.EUR.SP00.A?format=csvdata&startPeriod=2026-09-16&endPeriod=2026-10-07"
+    },
+    {
+      "symbol": "USD/JPY",
+      "section": "FX",
+      "value": 158.088562,
+      "unit": "JPY/USD",
+      "observed": "2026-10-06",
+      "session": "2026-10-06",
+      "basis": "reference-rate",
+      "source_name": "ECB",
+      "source_url": "https://data-api.ecb.europa.eu/service/data/EXR/D.USD+JPY+GBP.EUR.SP00.A?format=csvdata&startPeriod=2026-09-16&endPeriod=2026-10-07"
+    },
+    {
+      "symbol": "GBP/USD",
+      "section": "FX",
+      "value": 1.327639,
+      "unit": "USD/GBP",
+      "observed": "2026-10-06",
+      "session": "2026-10-06",
+      "basis": "reference-rate",
+      "source_name": "ECB",
+      "source_url": "https://data-api.ecb.europa.eu/service/data/EXR/D.USD+JPY+GBP.EUR.SP00.A?format=csvdata&startPeriod=2026-09-16&endPeriod=2026-10-07"
+    }
+  ],
+  "warnings": [],
+  "failures": []
+}

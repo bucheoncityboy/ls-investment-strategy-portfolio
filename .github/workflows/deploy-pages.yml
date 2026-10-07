@@ -43,6 +43,7 @@ jobs:
           mkdir -p _site
           cp index.html styles.css .nojekyll _site/
           cp -R assets _site/
+          cp -R samples _site/
       - name: Upload site files
         uses: actions/upload-pages-artifact@v4
         with:

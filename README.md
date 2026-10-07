@@ -4,6 +4,7 @@ LS증권 투자전략 RA 지원용 GitHub Pages입니다. `markets-investment-po
 
 - [공개 사이트](https://bucheoncityboy.github.io/ls-investment-strategy-portfolio/)
 - [전체 프로젝트 인덱스](https://github.com/bucheoncityboy/portfolio-index)
+- [AI 활용 리서치 샘플 — 2026.10.07](https://bucheoncityboy.github.io/ls-investment-strategy-portfolio/samples/2026-10-07.html): K-Skill 실제 실행과 공개 원천 대조로 구성한 예시.
 
 ## 로컬 확인
 
@@ -21,13 +22,14 @@ npm run preview
 ## 구성
 
 - `index.html`: 소개, 대표 경험, 작업 방식, 학력·활동, 자격, 연락처
+- `samples/2026-10-07.html`: AI 활용 모닝 브리핑 샘플과 생성·검토 범위
 - `styles.css`: PC·모바일 화면과 인쇄 스타일
 - `assets/favicon.svg`: JK 아이콘
 - `src/harness.ts`: 링크·정적 파일·문서 비공개 조건·배포 구성 확인
 - `src/serve.ts`: 공개 파일만 제공하는 로컬 미리보기 서버
 - `docs/source-notes.md`: 공개 근거와 표현의 범위
 
-첨부받은 비공개 문서는 저장소에 포함하지 않습니다. Pages 배포 파일은 HTML, CSS, favicon, `.nojekyll`로 제한합니다. 새 클라이언트 스크립트나 외부 데이터 수집 코드는 없습니다.
+첨부받은 비공개 문서는 저장소에 포함하지 않습니다. Pages 배포 파일은 홈페이지·샘플 HTML, CSS, favicon, `.nojekyll`로 제한합니다. 새 클라이언트 스크립트나 외부 데이터 수집 코드는 없습니다.
 
 ## 배포
 
